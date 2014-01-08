@@ -61,6 +61,7 @@ public class Formula1 {
     
      public void cargarDatosCM(){
         this.registroDatosCampeonatoMundial.cargarCampeonatos();
+        
     }
     
     //Grandes Premios
@@ -291,5 +292,17 @@ public class Formula1 {
         Posicion ps=new Posicion(granPremio.getAnyo(),granPremio.getNombre(),piloto,posicion);
         this.registroClasificaciones.guardarPosicion(ps);
             
+    }
+    
+    //como el orden de carga es primero el registro de GP y luego el registro
+    //de CM sabemos que ya tenemos GP cargados y ahora lo unico que
+    //hacemos es rellenar la lista de GP que contiene cada CM del 
+    //registro filtrando por el año del CM recorrido
+    private void uneCMyGP(){
+        List<CampeonatoMundial> listaCM=this.registroDatosCampeonatoMundial.getListaCM();
+        for(CampeonatoMundial cm:listaCM){
+            cm.setGrandesPremios(this.registroDatosGranPremio.obtenerGPdeCM(cm.getAnyo()));
+        }
+        
     }
 }
