@@ -241,6 +241,11 @@ public class PruebaConsultas {
         List<Posicion> posiciones=rC.obtenerListaPosicionesCM("2014");
         p0.mostrarClasificacionEscuderiasCM(posiciones);
         p0.mostrarClasificacionPilotosCM(posiciones);
+        System.out.println("\n****ahora las GP***\n");
+        
+        posiciones=rC.obtenerListaPosicionesGP("GP2", "2014");
+        p0.mostrarClasificacionEscuderiasCM(posiciones);
+        p0.mostrarClasificacionPilotosCM(posiciones);
     }
     
 }

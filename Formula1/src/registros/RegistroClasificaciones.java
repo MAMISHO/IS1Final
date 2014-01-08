@@ -87,12 +87,12 @@ public class RegistroClasificaciones {
         }
     }
     public List<Posicion> obtenerListaPosicionesCM(String anyo){
-        List<Posicion> l=this.listaPosiciones;
+        List<Posicion> l=this.posicionesCM(anyo);
         Collections.sort(l, new ComparadorPosicion());
         return l;
     }
-    public List<Posicion> obtenerListaPosicionesGP(String idGranPremio){
-        List<Posicion> l=this.listaPosiciones;
+    public List<Posicion> obtenerListaPosicionesGP(String nombreGp, String anyo){
+        List<Posicion> l=this.posicionesGP(nombreGp,anyo);
         Collections.sort(l, new ComparadorPosicion());
         return l;
     }
@@ -105,4 +105,25 @@ public class RegistroClasificaciones {
         this.listaPosiciones = listaPosiciones;
     }
     
+    private List<Posicion> posicionesGP(String idGp,String anyo){
+        List<Posicion> lista=new ArrayList<Posicion>();
+        for(Posicion p:this.listaPosiciones){
+            if(p.getNombreGranPremio().equals(idGp) && p.getAnyo().equals(anyo)){
+                lista.add(p);
+            }
+                  
+        }
+        return lista;
+    }
+    
+    private List<Posicion> posicionesCM(String anyo){
+        List<Posicion> lista=new ArrayList<Posicion>();
+        for(Posicion p:this.listaPosiciones){
+            if(p.getAnyo().equals(anyo)){
+                lista.add(p);
+            }
+                  
+        }
+        return lista;
+    }
 }

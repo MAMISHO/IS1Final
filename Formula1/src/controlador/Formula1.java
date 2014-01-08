@@ -256,13 +256,13 @@ public class Formula1 {
     }
     
     // metodos de consultas de clasificacion de grandes premios
-    public void consultaCEGP(){
-        List<Posicion> posiciones=registroClasificaciones.obtenerListaPosicionesCM(this.campeonatoMundial.getAnyo());
+    public void consultaCEGP(String nombreGp){
+        List<Posicion> posiciones=registroClasificaciones.obtenerListaPosicionesGP(nombreGp,this.campeonatoMundial.getAnyo());
         this.posicion.mostrarClasificacionEscuderiasCM(posiciones);
     }
     
-    public void consultaCPGP(){
-        List<Posicion> posiciones=registroClasificaciones.obtenerListaPosicionesCM(this.campeonatoMundial.getAnyo());
+    public void consultaCPGP(String nombreGp){
+        List<Posicion> posiciones=registroClasificaciones.obtenerListaPosicionesGP(nombreGp,this.campeonatoMundial.getAnyo());
         this.posicion.mostrarClasificacionPilotosCM(posiciones);
     }
     //metodos necesarios

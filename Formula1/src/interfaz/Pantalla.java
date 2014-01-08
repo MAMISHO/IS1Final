@@ -82,9 +82,15 @@ public class Pantalla {
                 break;
             case 8:
                 System.out.println("Entraste ver clasificacion pilotos en GP");
+                System.out.println("\nintroduce el nombre del Gran Premio:");
+                String gp=IO.readLine();
+                this.f1.consultaCPGP(gp);
                 break;
             case 9:
             System.out.println("Entraste ver clasificacion Escuderias en GP");
+                System.out.println("\nintroduce el nombre del Gran Premio:");
+                String gp1=IO.readLine();
+                this.f1.consultaCEGP(gp1);
                 break;
             case 10: 
                 System.out.println("Selección salir");
