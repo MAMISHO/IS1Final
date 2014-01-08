@@ -62,7 +62,14 @@ public class Formula1 {
     
      public void cargarDatosCM(){
         this.registroDatosCampeonatoMundial.cargarCampeonatos();
-        
+        this.uneCMyGP();
+         for(CampeonatoMundial cm:this.registroDatosCampeonatoMundial.getListaCM()){
+             //System.out.println(cm.getAnyo()+ "-"+ cm.getGrandesPremios().get(0).getNombre());
+             System.out.println(cm.getAnyo());
+             for(GranPremio gp:cm.getGrandesPremios()){
+                 System.out.println(gp.getIdGranPremio());
+             }
+         }
     }
     
     //Grandes Premios
@@ -79,6 +86,11 @@ public class Formula1 {
     
      public void cargarDatosGrandesPremios(){
         this.registroDatosGranPremio.cargarGrandesPremios();
+         //System.out.println("Entra a craga grandes premios");
+        for(GranPremio gp:registroDatosGranPremio.getListaGrandesPremios()){
+                System.out.println(gp.getIdGranPremio()+"-"+gp.getAnyo());
+            }
+        
     }
     
     //piloto
@@ -342,8 +354,29 @@ public class Formula1 {
     private void uneCMyGP(){
         List<CampeonatoMundial> listaCM=this.registroDatosCampeonatoMundial.getListaCM();
         for(CampeonatoMundial cm:listaCM){
+            //System.out.println("entra a uneCMyGP");
             cm.setGrandesPremios(this.registroDatosGranPremio.obtenerGPdeCM(cm.getAnyo()));
+            /*for(GranPremio gp:registroDatosGranPremio.getListaGrandesPremios()){
+                System.out.println(gp.getIdGranPremio()+"-"+gp.getAnyo());
+            }*/
         }
         
     }
+
+    public RegistroGranPremio getRegistroDatosGranPremio() {
+        return registroDatosGranPremio;
+    }
+
+    public void setRegistroDatosGranPremio(RegistroGranPremio registroDatosGranPremio) {
+        this.registroDatosGranPremio = registroDatosGranPremio;
+    }
+
+    public RegistroCircuitos getRegistroDatosCircuitos() {
+        return registroDatosCircuitos;
+    }
+
+    public void setRegistroDatosCircuitos(RegistroCircuitos registroDatosCircuitos) {
+        this.registroDatosCircuitos = registroDatosCircuitos;
+    }
+    
 }

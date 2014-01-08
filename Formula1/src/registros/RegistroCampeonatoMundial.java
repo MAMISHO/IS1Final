@@ -111,7 +111,7 @@ public class RegistroCampeonatoMundial {
         List<String> lineas=new ArrayList<String>();
         try {
        
-           archivo = new File (this.ruta+"R_Escuderia.txt");
+           archivo = new File (this.ruta+"R_CampeonatoMundial.txt");
            fr = new FileReader (archivo);
            br = new BufferedReader(fr);
            

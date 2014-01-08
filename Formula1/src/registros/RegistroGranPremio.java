@@ -74,17 +74,17 @@ public class RegistroGranPremio {
         grabar+=gp.getAnyo()+";";
         grabar+=gp.getPais()+";";
         grabar+=gp.getIdGranPremio()+";";
-        grabar+=gp.getCircuito().getNombre()+";";
+        grabar+=gp.getCircuito().getNombre();
              
         this.escribir(grabar);
     }
     
-    public void cargarEscuderias(){
+    public void cargarGrandesPremios(){
         List<GranPremio> gPs=new ArrayList<GranPremio>();
         List<String> lineas=new ArrayList<String>();
         try {
        
-           archivo = new File (this.ruta+"R_GrandesPremios.txt");
+           archivo = new File (this.ruta+"R_CGrandesPremios.txt");
            fr = new FileReader (archivo);
            br = new BufferedReader(fr);
            
@@ -122,14 +122,15 @@ public class RegistroGranPremio {
                 granPremio.setAnyo(atr[4]);
                 granPremio.setPais(atr[5]);
                 granPremio.setIdGranPremio(atr[6]);
-                Circuito cir=this.registroCircuitos.introduceIdcircuito(atr[7]);
-                granPremio.setCircuito(cir);
+                //Circuito cir=this.registroCircuitos.introduceIdcircuito(atr[7]);
+                //Circuito cir=new Circuito(atr[7]);
+                //granPremio.setCircuito(cir);
                 
                                
                 gPs.add(granPremio);
             }
         }else{
-            System.out.println("No existen escuderias");
+            System.out.println("No existen grandes premios");
         }
         
         //return esc;
@@ -169,9 +170,11 @@ public class RegistroGranPremio {
     public void setListaEscuderias(List<GranPremio> listaGrandesPremios) {
         this.listaGrandesPremios = listaGrandesPremios;
     }
-    public List<GranPremio> cargarGrandesPremios(){
+    
+    /*public List<GranPremio> cargarGrandesPremios(){
         return this.listaGrandesPremios;
-    }
+    }*/
+    
     public GranPremio getGranPremio(String idGP){
         GranPremio granpremio=new GranPremio();
         for(GranPremio gp:this.listaGrandesPremios){
@@ -194,4 +197,14 @@ public class RegistroGranPremio {
         
         return l;
     }
+
+    public RegistroCircuitos getRegistroCircuitos() {
+        return registroCircuitos;
+    }
+
+    public void setRegistroCircuitos(RegistroCircuitos registroCircuitos) {
+        this.registroCircuitos = registroCircuitos;
+    }
+    
+    
 }
