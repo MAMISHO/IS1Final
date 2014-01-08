@@ -87,15 +87,31 @@ public class Formula1 {
     }
     public void realizarBajaPiloto(String idPiloto){
         this.piloto=this.registroDatosPilotos.introduceIdPiloto(idPiloto);
-        this.registroDatosPilotos.borraPiloto(piloto);
+        if(this.piloto!=null){
+            this.registroDatosPilotos.borraPiloto(piloto);
+        }{
+            System.out.println("El piloto no existe");
+        }
+        
     }
     public void realizarConsultaPiloto(String idPiloto){
         this.piloto=this.registroDatosPilotos.introduceIdPiloto(idPiloto);
-        this.piloto.mostrarDatos(piloto);
+        
+        if(this.piloto!=null){
+            this.piloto.mostrarDatos(piloto);
+        }else{
+            System.out.println("El piloto no existe");
+        }
+        
     }
     public void realizarModificarPiloto(String idPiloto){
         this.piloto=this.registroDatosPilotos.introduceIdPiloto(idPiloto);
-        this.piloto.mostrarDatos(piloto);
+        if(this.piloto!=null){
+            this.piloto.mostrarDatos(piloto);
+        }else{
+            System.out.println("El piloto no existe");
+        }
+        
     }
     
     public void introducirDatosPiloto(String nombre,String apellido,String idPiloto,String equipo,
@@ -152,17 +168,32 @@ public class Formula1 {
      */
     public void realizarBajaEscuderia(String idEscuderia){
         this.escuderia=this.registroDatosEscuderias.introduceIdEscuderia(idEscuderia);
-        this.registroDatosEscuderias.borraEscuderia(escuderia);
+        if(this.escuderia!=null){
+            this.registroDatosEscuderias.borraEscuderia(escuderia);
+        }else{
+            System.out.println("La escuderia no existe");
+        }
+        
     }
     
     public void realizarConsultaEscuderia(String idEscuderia){
         this.escuderia=this.registroDatosEscuderias.introduceIdEscuderia(idEscuderia);
-        this.escuderia.mostrarDatos(escuderia);
+        if(this.escuderia!=null){
+            this.escuderia.mostrarDatos(escuderia);
+        }else{
+            System.out.println("La escuderia no existe");
+        }
+        
     }
     
     public void realizarModificarEscuderia(String idEscuderia){
         this.escuderia=this.registroDatosEscuderias.introduceIdEscuderia(idEscuderia);
-        this.escuderia.mostrarDatos(escuderia);
+        if(this.escuderia!=null){
+            this.escuderia.mostrarDatos(escuderia);
+        }else{
+            System.out.println("La escuderia no existe");
+        }
+        
         
     }
     

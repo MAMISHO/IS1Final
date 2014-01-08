@@ -1,0 +1,7 @@
+cirjerez;circuitodejerez;jerezdelafrontera;8000;14;90000;189
+cirbarcelona;circuito de montmelo;barcelona;8500;13;95000;179
+cirmonaco;circuito de monaco;monaco;7000;18;85000;192
+cirvalencia;circuito de valencia;valencia;9000;12;85000;183
+cirsingapur;circuito de Marina bay;singapur;7500;19;87000;170
+cirmelburne;circuito de melburne;Australia;5300;28;90000;120
+cirsepang;circuito de sepang;Malasia;5700;31;77000;139

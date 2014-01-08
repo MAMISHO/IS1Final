@@ -1,2 +1,11 @@
-Red Bull Racing;PIL1:PIL2:PIL3:PIL4;PIL-5:PIL-7;Milton Keynes, Reino Unido;RB10;Renault;Pirelli;2005;2005
-Ferrari;PIL1:PIL2:PIL3:PIL4;PIL-5:PIL-7;reino unido;chasisFerrari;motorFerrari;pirelli;1999;01-01-1990
+Red Bull;PIL1:PIL2:PIL3:PIL4;sebvet:marweb;Milton Keynes-Reino Unido;RB10;Renault;Pirelli;2005;15-11-2004
+Ferrari;PIL1:PIL2:PIL3:PIL4;feralo:felmas;Maranello-Italia;Ferrari F138;Ferrari 056;Pirelli;1950;01-01-1950
+McLaren;PIL1:PIL2:PIL3:PIL4;jenbut:serper;Surrey-UK;M94-29;Mercedes-Benz V6;Pirelli;1966;01-01-1963
+Lotus;PIL1:PIL2:PIL3:PIL4;kimrai:romgro;Enstone-UK;Lotus E22;Renault Energy F1 V6;Pirelli;2012;01-01-2010
+Mercedes;PIL1:PIL2:PIL3:PIL4;nicros:lewham;Stuttgart-Alemania;Mercedes AMG F1 W05;Mercedes V6;Pirelli;1954;01-01-1954
+Sauber;PIL1:PIL2:PIL3:PIL4;nichul:estgut;Hinwil Suiza;Sauber C33;Ferrari 059/3 V6;Pirelli;1993;01-03-1992
+Force India;PIL1:PIL2:PIL3:PIL4;paudir:adrsut;Silverstone-UK;VJM07;Mercedes Benz V6;Pirelli;2008;01-10-2007
+Williams;PIL1:PIL2:PIL3:PIL4;pasmal:valbot;Oxfordshire,UK;FW36;Mercedes Benz V6;Pirelli;1975;01-01-1977
+Toro Rosso;PIL1:PIL2:PIL3:PIL4;jeaver:danric;Faenza-Italia;STR9;Renault F1 V6;Pirelli;2006;30-11-2005
+Caterham;PIL1:PIL2:PIL3:PIL4;chapic:gievan;Leafield-UK;CT-04;Renault F1 V6;Pirelli;2012;24-09-2010
+Marussia;PIL1:PIL2:PIL3:PIL4;julbia:maxchi;Dinnington-UK;MR03;Ferrari 059/3 V6;Pirelli;2012;01-01-2012

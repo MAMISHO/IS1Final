@@ -1,1 +1,23 @@
-edwin;mauricio;edwmau;equipo1;equipo0;espana;10-05-2005
+Sebastian;Vettel;sebvet;Red Bull;Toro Rosso;Alemania;03-07-1987
+Mark;Webber;marweb;Red Bull;Williams;Australia;27-08-1976
+Fernando;Alonso;feralo;Ferrari;Renault;Espanya;28-07-1981
+Felipe;Massa;felmas;Ferrari;Sauber;Brasil;25-04-1981
+Jenson;Button;jenbut;McLaren;BrawnGP;Inglaterra;19-01-1980
+Sergio;Perez Mendoza;serper;McLaren;Sauber;Mexico;26-01-1990
+Kimi;Raikkonen;kimrai;Lotus;Ferrari;Finlandia;17-10-1979
+Heikki;Kovalainen;Heikov;Lotus;Caterham;Finlandia;19-10-1981
+Romain ;Grosjean;romgro;Lotus;Renault;Francia;17-04-1986
+Nico;Rosberg;nicros;Mercedes;Williams;Alemania;27-06-1985
+Lewis;Hamilton;lewham;Mercedes;McLaren;Inglaterra;07-01-1985
+Nico;Hulkenberg;nichul;Sauber;Force India;Alemania;19-08-1987
+Esteban;Gutierrez Gutierrez;estgut;Sauber;none;Mexico;05-08-1991
+Paul;Di Resta;paudir;Force India;none;Inglaterra;16-04-1986
+Adrian;Sutil;adrsut;Force India;Spyker;Alemania;11-01-1983
+Pastor;Maldonado Motta;pasmal;Williams;None;Venezuela;09-03-1985
+Valtteri;Bottas;valbot;Williams;None;Finlandia;28-08-1989
+Jean-Eric;Vergne;jeaver;Toro Rosso;None;Francia;25-0401990
+Daniel ;Ricciardo;danric;Toro Rosso;None;Australia;01-07-1989
+Charles ;Pic;chapic;Caterham;Marussia;Francia;15-02-1990
+Giedo;van der Garde;gievan;Caterham;None;Holanda;25-04-1985
+Jules;Bianchi;julbia;Marussia;Force India;Francia;03-08-1989
+Max Alexander;Chilton;maxchi;Marussia;none;Inglaterra;21-04-1991
