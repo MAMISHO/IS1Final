@@ -138,10 +138,11 @@ public class RegistroCampeonatoMundial {
         //si hay ñectura de lineas añadimos a la lista de escuderias
         if(!lineas.isEmpty()){
             for(String a:lineas){
-                String[] atr;
+                //String[] atr;
                 CampeonatoMundial campeonatoMundial=new CampeonatoMundial();
-                atr=a.split(";");
-                campeonatoMundial.setAnyo(atr[0]);
+                //atr=a.split(";");
+                //introduce el año
+                campeonatoMundial.setAnyo(a);
                 //campeonatoMundial.setNumeroGrandesPremios(atr[1]);
                 
                 

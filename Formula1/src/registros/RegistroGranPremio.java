@@ -182,4 +182,16 @@ public class RegistroGranPremio {
         }
     return granpremio;
     }
+    //este metodo es para obtener los GP de un CM especifico
+    
+    public List<GranPremio> obtenerGPdeCM(String anyo){
+        List<GranPremio> l=new ArrayList<GranPremio>();
+        for(GranPremio gp:this.listaGrandesPremios){
+            if(gp.getAnyo().equals(anyo)){
+                l.add(gp);
+            }
+        }
+        
+        return l;
+    }
 }
