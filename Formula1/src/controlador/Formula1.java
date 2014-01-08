@@ -247,9 +247,12 @@ public class Formula1 {
         this.registroDatosCircuitos.borraCircuito(circuito);
     }
     public void realizarConsultaCircuito(String idcircuito){
-        this.circuito=this.registroDatosCircuitos.introduceIdcircuito(idcircuito);
+       this.circuito=this.registroDatosCircuitos.introduceIdcircuito(idcircuito);
         this.circuito.muestradatos(circuito);
-        
+//        for(int i=0;i<=6;i++){
+//            System.out.println(this.registroDatosCircuitos.getListaCircuitos().get(i).getNombre());
+//        }
+//        
     }
     public void realizarModificarCircuito(String idcircuito){
         this.circuito=this.registroDatosCircuitos.introduceIdcircuito(idcircuito);

@@ -181,6 +181,7 @@ public class RegistroCircuitos {
     }
 
     public void guardarCircuito(Circuito cir){
+        this.ListaCircuitos.add(cir);
         String grabar="";
         grabar+=cir.getIdcircuito()+";";
         grabar+=cir.getNombre()+";";
@@ -188,7 +189,7 @@ public class RegistroCircuitos {
         grabar+=cir.getLongitud()+";";
         grabar+=cir.getNvueltas()+";";
         grabar+=cir.getDistancia()+";";
-        grabar+=cir.getRecordvuelta()+";";
+        grabar+=cir.getRecordvuelta();
         
         this.escribir(grabar);
     }
@@ -222,7 +223,7 @@ public class RegistroCircuitos {
     public Circuito introduceIdcircuito(String idcircuito){
         Circuito cir=null;
         for(Circuito e:this.getListaCircuitos()){
-            if(e.getNombre().equals(idcircuito)){
+            if(e.getIdcircuito().equals(idcircuito)){
                 cir=e;
             }
         }

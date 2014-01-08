@@ -19,16 +19,18 @@ public class Circuito {
 
     public Circuito() {
     }
-
-    /*public Circuito(/*String idcircuitos, String nombre, String ubicacion, int longitud, int nvueltas, int distancia, int recordvuelta) {
-        //this.idcircuitos = idcircuitos;
+    public Circuito(String idcircuito){
+        this.idcircuito=idcircuito;
+    }
+    public Circuito(String idcircuitos, String nombre, String ubicacion, int longitud, int nvueltas, int distancia, int recordvuelta) {
+        this.idcircuito = idcircuitos;
         this.nombre = nombre;
         this.ubicacion = ubicacion;
         this.longitud = longitud;
         this.nvueltas = nvueltas;
         this.distancia = distancia;
         this.recordvuelta = recordvuelta;
-    }*/
+    }
     public void introducirDatos(String idcircuito, String nombre, String ubicacion, int longitud, int nvueltas, int distancia, int recordvuelta) {
         this.idcircuito = idcircuito;
         this.nombre = nombre;
