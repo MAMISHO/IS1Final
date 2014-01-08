@@ -1,20 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
-    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
-        <file>file:/Users/MAMISHO/NetBeansProjects/IS1Final/Formula1/src/registros/RegistroPilotos.java</file>
-        <file>file:/Users/MAMISHO/NetBeansProjects/IS1Final/Formula1/src/entidades/Posicion.java</file>
-        <file>file:/Users/MAMISHO/NetBeansProjects/IS1Final/Formula1/src/registros/RegistroClasificaciones.java</file>
-        <file>file:/Users/MAMISHO/NetBeansProjects/IS1Final/Formula1/src/registros/ComparadorPosicion.java</file>
-        <file>file:/Users/MAMISHO/NetBeansProjects/IS1Final/Formula1/src/controlador/Formula1.java</file>
-        <file>file:/Users/MAMISHO/NetBeansProjects/IS1Final/Formula1/src/interfaz/Pantalla.java</file>
-        <file>file:/Users/MAMISHO/NetBeansProjects/IS1Final/Formula1/src/PruebaConsultas.java</file>
-        <file>file:/Users/MAMISHO/NetBeansProjects/IS1Final/Formula1/src/registros/RegistroGranPremio.java</file>
-        <file>file:/Users/MAMISHO/NetBeansProjects/IS1Final/Formula1/src/entidades/GranPremio.java</file>
-        <file>file:/Users/MAMISHO/NetBeansProjects/IS1Final/Formula1/src/pruebaMain.java</file>
-        <file>file:/Users/MAMISHO/NetBeansProjects/IS1Final/Formula1/src/registros/RegistroCampeonatoMundial.java</file>
-        <file>file:/Users/MAMISHO/NetBeansProjects/IS1Final/Formula1/src/entidades/CampeonatoMundial.java</file>
-        <file>file:/Users/MAMISHO/NetBeansProjects/IS1Final/Formula1/src/registros/RegistroEscuderias.java</file>
-        <file>file:/Users/MAMISHO/NetBeansProjects/IS1Final/Formula1/src/registros/RegistroCircuitos.java</file>
-    </open-files>
 </project-private>
