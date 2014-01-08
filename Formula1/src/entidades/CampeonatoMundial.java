@@ -37,7 +37,7 @@ public class CampeonatoMundial {
     
     //arreglar implementacios
     public CampeonatoMundial(){
-    grandesPremios=new ArrayList<GranPremio>();
+        grandesPremios=new ArrayList<GranPremio>();
     }
     
     public void introducirDatosCM(String anyo,double numeroGrandesPremios,ArrayList<GranPremio> gp){
